@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    $('.carousel').carousel({
+        interval: false,
+    });
+
     $('.gallery').mauGallery({
         columns: {
             xs: 1,
@@ -13,3 +17,4 @@ $(document).ready(function() {
         tagsPosition: 'top'
     });
 });
+
