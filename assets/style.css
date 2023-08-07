@@ -91,7 +91,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
 }
 .title{
 	text-align: center;
@@ -102,7 +102,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #5B5824;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -354,3 +354,35 @@ input[type="submit"] {
 	}
 }
 
+footer {
+	display: flex;
+	padding-block: 3em;
+	justify-content: space-evenly;
+	font-size: 12px;
+	align-items: center;
+}
+
+footer div {
+	position: relative;
+}
+
+.footer-contact {
+	margin-bottom: 1em;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.btn {
+	background-color: #5B5824;
+	padding: 16px 32px;
+	margin-inline: 5px;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+.footer-logo {
+	background-color: white;
+	max-width: 308px;
+	padding: 10px;
+  }
