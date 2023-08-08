@@ -8,7 +8,6 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<link rel="manifest" href="/assets/manifest.json">
-	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 	<meta charset="UTF-8">
 	<meta name="theme-color" content="#000000">
 	<meta name="description" content="Photographe professionnelle spécialisée dans les portraits, mariages, concerts et photographies d'entreprise en Île-de-France. Contactez-nous pour immortaliser vos moments précieux.">
@@ -42,17 +41,17 @@
 				<div class="carousel-inner">
 					<picture class="carousel-item active">
 						<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-320.webp" media="(max-width: 767px)">
-						<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-640.webp" media="(min-width: 768px)">
+						<source srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-768.webp" media="(min-width: 768px)">
 						<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="ryoji">
 					</picture>
 					<picture class="carousel-item">
 						<source srcset="./assets/images/slider/nicholas-green-npz8akkumdi-unsplash-320.webp" media="(max-width: 767px)">
-						<source srcset="./assets/images/slider/nicholas-green-npz8akkumdi-unsplash-640.webp" media="(min-width: 768px)">
+						<source srcset="./assets/images/slider/nicholas-green-npz8akkumdi-unsplash-768.webp" media="(min-width: 768px)">
 						<img src="./assets/images/slider/nicholas-green-npz8akkumdi-unsplash.webp" class="d-block w-100" alt="nicholas">
 					</picture>
 					<picture class="carousel-item">
 						<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-320.webp" media="(max-width: 767px)">
-						<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-640.webp" media="(min-width: 768px)">
+						<source srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-768.webp" media="(min-width: 768px)">
 						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="ciserons">
 					</picture>
 				</div>
@@ -84,39 +83,56 @@
 					<img data-gallery-tag="Concert" 
 						class="gallery-item" 
 						src="./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash.webp" 
-						srcset=""
+						srcset="./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash-320.webp, ./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash-768.webp " 
+						sizes="(max-width: 320px) 90vw, (max-width: 768px) 80vw, 1000px"
 						alt="photos concerts Aaron">
 					<img data-gallery-tag="Entreprises" 
 						class="gallery-item" 
-						src="./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash.webp" 
+						src="./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash.webp"
+						srcset="./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash-320.webp, ./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash-768.webp"
+						sizes="(max-width: 320px) 90vw, (max-width: 768px) 80vw, 1000px" 
 						alt="photos Morshedlou">
 					<img data-gallery-tag="Entreprises" 
 						class="gallery-item" 
-						src="./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash.webp" 
+						src="./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash.webp"
+						srcset="./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash-320.webp, ./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash-768.webp" 
+						sizes="(max-width: 320px) 90vw, (max-width: 768px) 80vw, 1000px"
 						alt="photos Goodman">
 					<img data-gallery-tag="Mariages" 
 						class="gallery-item" 
 						src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"
-						alt="photos de mariage Hannah-Busing">
+						srcset="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-320.webp, ./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-768.webp"
+						sizes="(max-width: 320px) 90vw, (max-width: 768px) 80vw, 1000px"
+     					alt="photos de mariage Hannah-Busing">
 					<img data-gallery-tag="Portrait" 
 						class="gallery-item" 
-						src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" 
+						src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
+						srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-320.webp, ./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-768.webp"
+						sizes="(max-width: 320px) 90vw, (max-width: 768px) 80vw, 1000px" 
 						alt="portrait de Tunji">
 					<img data-gallery-tag="Mariages" 
 						class="gallery-item" 
 						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" 
+						srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-320.webp, ./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-768.webp"
+						sizes="(max-width: 320px) 90vw, (max-width: 768px) 80vw, 1000px"
 						alt="photos de mariage Jakob-Owens">
 					<img data-gallery-tag="Portrait" 
 						class="gallery-item" 
 						src="./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8-unsplash.webp" 
+						srcset="./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8-unsplash-320.webp, ./assets/images/gallery/portraits/nino-van-prattenburg-443cl1uR_8-unsplash-768.webp"
+						sizes="(max-width: 320px) 90vw, (max-width: 768px) 80vw, 1000px"
 						alt="portait de Prattenburg">
 					<img data-gallery-tag="Concert" 
 						class="gallery-item" 
 						src="./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash.webp" 
+						srcset="./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash-320.webp, ./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash-768.webp"
+						sizes="(max-width: 320px) 90vw, (max-width: 768px) 80vw, 1000px"
 						alt="photos concerts Austin">
 					<img data-gallery-tag="Entreprises" 
 						class="gallery-item" 
 						src="./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash.webp"
+						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash-320.webp, ./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash-768.webp"
+						sizes="(max-width: 320px) 90vw, (max-width: 768px) 80vw, 1000px"
 						alt="photos Campos">
 				</div>
 			</div>
