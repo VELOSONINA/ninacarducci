@@ -12,10 +12,15 @@
         "src": "images/nina.webp",
         "type": "image/webp",
         "sizes": "192x192"
+      },
+      {
+        "src": "images/nina.webp",
+        "type": "image/webp",
+        "sizes": "512x512"
       }
       
     ],
-    "start_url": "/",
+    "start_url": "/http://127.0.0.1:5500/index.html",
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff"
