@@ -6,8 +6,8 @@
 	<meta name="theme-color" content="#000000">
 	<meta name="MobileOptimized" content="width">
 	<meta name="description" content="Photographe professionnelle spécialisée dans les portraits, mariages, concerts et photographies d'entreprise en Île-de-France. Contactez-nous pour immortaliser vos moments précieux.">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
-	<link rel="stylesheet" href="./assets/style.min.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" media="print" onload="this.onload=null;this.removeAttribute('media')">
+	<link rel="stylesheet" href="./assets/style.min.css" media="print" onload="this.onload=null;this.removeAttribute('media')">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
@@ -15,35 +15,13 @@
 	<link rel="manifest" href="/assets/manifest.json">
 	<link rel="shortcut icon" href="#">
 	<link rel="canonical" href="https://velosonina.github.io/ninacarducci/">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script async src="./assets/maugallery.min.js"></script>
-	<script async src="./assets/scripts.min.js"></script>
-	<script type="application/ld+json">
-		{
-		  "@context": "http://schema.org",
-		  "@type": "LocalBusiness",
-		  "name": "Nina Carducci",
-		  "description": "Photographe professionnelle spécialisée dans les portraits, mariages, concerts et photographies d'entreprise en Île-de-France. Contactez-nous pour immortaliser vos moments précieux.",
-		  "address": {
-			"@type": "PostalAddress",
-			"streetAddress": "68, Av Alsace Lorraine, ",
-			"addressLocality": "Bordeaux",
-			"postalCode": "33200",
-			"addressCountry": "France"
-		  },
-		  "telephone": "05 56 67 78 89",
-		  "url": "https://velosonina.github.io/ninacarducci/",
-		  "image":"https://velosonina.github.io/ninacarducci/assets/images/nina.webp",
-		  "keywords": "photographie, portrait, noir et blanc"
-		}
-		</script>
+
 	<title>Photographe Nina Carducci</title>
 </head>
 <body>
 	<header class="top-header">
 		<h2 class="name">Nina Carducci</h2>
-		<nav>   
+		<nav >   
 			<ul>
 				<li><a href="#about">À propos</a></li>
 				<li><a href="#gallery">Galerie</a></li>
@@ -63,15 +41,15 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" 
-						class="d-block w-100 carousel-img" 
-						srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-768.webp 768w, ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-320.webp 320w"
+						<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"  
+						srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-320.webp 320w, ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-768.webp 768w"
 						sizes="100vw"
+						class="d-block w-100 carousel-img"
 						alt="ryoji">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/nicholas-green-npz8akkumdi-unsplash.webp" 
-						srcset="./assets/images/slider/nicholas-green-npz8akkumdi-unsplash-768.webp 768w, ./assets/images/slider/nicholas-green-npz8akkumdi-unsplash-320.webp 320w"
+						<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" 
+						srcset=" ./assets/images/slider/nicholas-green-npz8akkumdi-unsplash-320.webp 320w, ./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-768.webp 768w"
 						class="d-block w-100 carousel-img" 
 						sizes="100vw"
 						alt="nicholas"
@@ -79,7 +57,7 @@
 					</div>
 					<div class="carousel-item">
 						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" 
-						srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-768.webp 768w, ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-320.webp 320w"
+						srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-320.webp 320w, ./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-768.webp 768w"
 						sizes="100vw"
 						class="d-block w-100 carousel-img" 
 						alt="ciserons"
@@ -114,55 +92,55 @@
 					<img data-gallery-tag="Concert" 
 						class="gallery-item" 
 						src="./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash.webp" 
-						srcset="./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash-320.webp 320w, ./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash-768.webp 768w" 
+						srcset="./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash-768.webp, ./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash-320.webp 320w" 
 						sizes="100vw"
 						alt="photos concerts Aaron">
 					<img data-gallery-tag="Entreprises" 
 						class="gallery-item" 
 						src="./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash.webp"
-						srcset="./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash-320.webp 320w, ./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash-768.webp 768w"
+						srcset="./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash-768.webp, ./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash-320.webp 320w"
 						sizes="100vw" 
 						alt="photos Morshedlou">
 					<img data-gallery-tag="Entreprises" 
 						class="gallery-item" 
 						src="./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash.webp"
-						srcset="./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash-320.webp 320w, ./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash-768.webp 768w" 
+						srcset="./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash-768.webp, ./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash-320.webp 320w" 
 						sizes="100vw"
 						alt="photos Goodman">
 					<img data-gallery-tag="Mariages" 
 						class="gallery-item" 
 						src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"
-						srcset="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-320.webp 320w, ./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-768.webp 768w"
-						sizes="(max-width: 320px) 90vw, (max-width: 768px) 80vw, 1000px"
+						srcset="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-768.webp, ./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash-320.webp 320w"
+						sizes="100vw"
      					alt="photos de mariage Hannah-Busing">
 					<img data-gallery-tag="Portrait" 
 						class="gallery-item" 
 						src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
-						srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-320.webp 320w, ./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-768.webp 768w"
+						srcset="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-768.webp, ./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash-320.webp 320w"
 						sizes="100vw"
 						alt="portrait de Tunji">
 					<img data-gallery-tag="Mariages" 
 						class="gallery-item" 
 						src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" 
-						srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-320.webp 320w, ./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-768.webp 768w"
+						srcset="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-768.webp, ./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash-320.webp 320w"
 						sizes="100vw"
 						alt="photos de mariage Jakob-Owens">
 					<img data-gallery-tag="Portrait" 
 						class="gallery-item" 
 						src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" 
-						srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-320.webp 320w, ./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-768.webp 768w"
+						srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-768.webp, ./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-320.webp 320w"
 						sizes="100vw"
 						alt="portait de Prattenburg">
 					<img data-gallery-tag="Concert" 
 						class="gallery-item" 
 						src="./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash.webp" 
-						srcset="./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash-320.webp 320w, ./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash-768.webp 768w"
+						srcset="./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash-768.webp, ./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash-320.webp 320w"
 						sizes="100vw"
 						alt="photos concerts Austin">
 					<img data-gallery-tag="Entreprises" 
 						class="gallery-item" 
-						src="./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash.webp"
-						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash-320.webp 320w, ./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash-768.webp 768w"
+						src="./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash-768.webp"
+						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash-768.webp, ./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash-320.webp 320w"
 						sizes="100vw"
 						alt="photos Campos">
 				</div>
@@ -223,7 +201,7 @@
 		<section id="contact">
 			<div class="container">
 				<article class="form-container">
-					<h2>Une question ? Une demande de devis ?</h3>
+					<h2>Une question ? Une demande de devis ?</h2>
 					<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 					<form action="#" method="post">
 						<label for="nom">Nom</label>
@@ -245,12 +223,12 @@
 		<div>
 			<p class="footer-contact">Contact</p>
 			<ul>
-				<li>Appelez-moi au 05 56 67 78 89</li>
+				<li>Appelez-moi au <a href="tel:0556677889" aria-label="Téléphone">05 56 67 78 89</a></li>
 				<li>Lun-Ven : 10h00 - 19h00</li>
 			</ul>
 		</div>
 		<div>
-			<p>68, Av Alsace Lorraine, 33200 Bordeaux<br>
+			<p>68, Av Alsace Lorraine, 33200 Bordeaux<p>
 			<div class="social-links">
 				<a href="https://www.facebook.com/ninacarducci.photo/?hl=fr" target="_blank" aria-label="Facebook">
 					<i class="fa-brands fa-square-facebook"></i>
@@ -272,4 +250,27 @@
 		</div>	
 	</footer>
 </body>
+<script async src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+<script async src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script async src="./assets/maugallery.min.js"></script>
+<script async src="./assets/scripts.min.js"></script>
+<script async type="application/ld+json">
+	{
+	  "@context": "http://schema.org",
+	  "@type": "LocalBusiness",
+	  "name": "Nina Carducci",
+	  "description": "Photographe professionnelle spécialisée dans les portraits, mariages, concerts et photographies d'entreprise en Île-de-France. Contactez-nous pour immortaliser vos moments précieux.",
+	  "address": {
+		"@type": "PostalAddress",
+		"streetAddress": "68, Av Alsace Lorraine, ",
+		"addressLocality": "Bordeaux",
+		"postalCode": "33200",
+		"addressCountry": "France"
+	  },
+	  "telephone": "05 56 67 78 89",
+	  "url": "https://velosonina.github.io/ninacarducci/",
+	  "image":"https://velosonina.github.io/ninacarducci/assets/images/nina.webp",
+	  "keywords": "photographie, portrait, noir et blanc"
+	}
+	</script>
 </html>
