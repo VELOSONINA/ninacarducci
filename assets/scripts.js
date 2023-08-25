@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $('.loading-overlay').fadeOut(4000);
     $('.carousel').carousel({interval:!1,});
     $('.gallery').mauGallery({
         columns: {
@@ -13,5 +14,5 @@ $(document).ready(function() {
         showTags: true,
         tagsPosition: 'top'
     });
-    $('.gallery img').attr('loading','lazy')
+    $('.gallery img').attr('loading','lazy');
 });
