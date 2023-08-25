@@ -61,7 +61,7 @@ nav a {
     text-decoration: none;
     color: #000;
 }
-.social-link img {
+.social-link svg {
     width: 20px;
     height: auto;
 }
@@ -71,6 +71,15 @@ nav a {
     padding: 100px;
     position: relative;
 }
+img {
+    width:580px; 
+    height:400px;
+}
+  img.d-block.w-100 {
+    width: 100%;
+    height: auto;
+  }
+
 .photo.left::before {
     content: " ";
     background-color: #e5975f;
@@ -281,8 +290,7 @@ footer div {
     transition: color 0.3s;
 }
 
-.social-links a:hover,
-.social-links img:hover {
+.social-links a:hover {
     color: #0d6efd;
 }
 .social-links a svg {
