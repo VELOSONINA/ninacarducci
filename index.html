@@ -6,6 +6,20 @@
 	<meta name="theme-color" content="#000000">
 	<meta name="MobileOptimized" content="width">
 	<meta name="description" content="Photographe professionnelle spécialisée dans les portraits, mariages, concerts et photographies d'entreprise en Île-de-France. Contactez-nous pour immortaliser vos moments précieux.">
+	<!-- Twitter summary card with large image must be at least 280x150px -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Nina Carducci - Photographe professionnel" >
+	<meta name="twitter:description"
+		content="Photographe professionnelle spécialisée dans les portraits, mariages, concerts et photographies d'entreprise en Île-de-France. Contactez-nous pour immortaliser vos moments précieux.">
+	<meta name="twitter:image" content="./assets/images/camera320.webp" >
+	<!-- Open Graph meta (Facebook, Linkedin) -->
+	<meta property="og:title" content="Nina Carducci - Photographe professionnel" >
+	<meta property="og:type" content="article" >
+	<meta property="og:description"
+		 content="Photographe professionnelle spécialisée dans les portraits, mariages, concerts et photographies d'entreprise en Île-de-France. Contactez-nous pour immortaliser vos moments précieux.">
+	<meta property="author" content="Nina Carducci" >
+	<meta property="og:image" content="./assets/images/camera320.webp" >
+	<meta name="google-site-verification" content="3ZcMipglgs7t-35invU6hoH9daszxdxgpzzcPTlSay0" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
@@ -22,13 +36,13 @@
 		<div class="loading-spinner"></div>
 	</div>
 	<header class="top-header">
-		<h2 class="name">Nina Carducci</h2>
+		<h1 class="name">Nina Carducci</h1>
 		<nav >   
 			<ul>
-				<li><a href="#about">À propos</a></li>
-				<li><a href="#gallery">Galerie</a></li>
-				<li><a href="#services">Service</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="#about" aria-label="lien à propos">À propos</a></li>
+				<li><a href="#gallery" aria-label="lien galerie">Galerie</a></li>
+				<li><a href="#services" aria-label="lien services">Service</a></li>
+				<li><a href="#contact" aria-label="lien Contact">Contact</a></li>
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank" aria-label="Instagram">
 					<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
 						<path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
@@ -51,7 +65,6 @@
 						<img src="./assets/images/slider/ryoji-iwata-wuzjnov7t0g-unsplash.webp"  
 						srcset="./assets/images/slider/ryoji-iwata-wuzjnov7t0g-unsplash-640.webp 640w, ./assets/images/slider/ryoji-iwata-wuzjnov7t0g-unsplash-1240.webp 1240w, ./assets/images/slider/ryoji-iwata-wuzjnov7t0g-unsplash-1920.webp 1920w"
 						sizes="100vw"
-						width="580" height="400"
 						class="d-block w-100"
 						alt="ryoji"
 						fetchpriority="high">
@@ -105,31 +118,31 @@
 						class="gallery-item" 
 						src="./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash.webp" 
 						srcset="./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash-320.webp 320w, ./assets/images/gallery/concerts/aaron-paul-wnx-fxzb6cw-unsplash-768.webp 768w" 
-						sizes="(max-width: 100px) 100px, (max-width: 768px) 768px"
+						sizes="(max-width: 320px) 320px, (max-width: 768px) 768px"
 						alt="photos concerts Aaron">
 					<img data-gallery-tag="Entreprises" 
 						class="gallery-item" 
 						src="./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash.webp"
 						srcset="./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash-320.webp 320w, ./assets/images/gallery/entreprise/ali-morshedlou-wmd64tmfc4k-unsplash-768.webp 768w"
-						sizes="(max-width: 100px) 100px, (max-width: 768px) 768px"
+						sizes="(max-width: 320px) 320px, (max-width: 768px) 768px"
 						alt="photos Morshedlou">
 					<img data-gallery-tag="Entreprises" 
 						class="gallery-item" 
 						src="./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash.webp"
 						srcset="./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash-320.webp 320w, ./assets/images/gallery/entreprise/jason-goodman-tho1-oukbg0-unsplash-768.webp 768w" 
-						sizes="(max-width: 100px) 100px, (max-width: 768px) 768px"
+						sizes="(max-width: 320px) 320px, (max-width: 768px) 768px"
 						alt="photos Goodman">
 					<img data-gallery-tag="Mariages"
 						class="gallery-item"
 						src="./assets/images/gallery/mariage/hannah-busing-rvf2r_qmprk-unsplash.webp"
 						srcset="./assets/images/gallery/mariage/hannah-busing-rvf2r_qmprk-unsplash320.webp 320w, ./assets/images/gallery/mariage/hannah-busing-rvf2r_qmprk-unsplash768.webp 768w"
-						sizes="(max-width: 100px) 100px, (max-width: 768px) 768px"
+						sizes="(max-width: 320px) 320px, (max-width: 768px) 768px"
 						alt="photo mariage Hannah">
 					<img data-gallery-tag="Portrait"
 						class="gallery-item"
 						src="./assets/images/gallery/portraits/ade-tunji-rvkhwwzfatq-unsplash.webp"
 						srcset="./assets/images/gallery/portraits/ade-tunji-rvkhwwzfatq-unsplash320.webp 320w, ./assets/images/gallery/portraits/ade-tunji-rvkhwwzfatq-unsplash768.webp 768w"
-						sizes="(max-width: 100px) 100px, (max-width: 768px) 768px"
+						sizes="(max-width: 320px) 320px, (max-width: 768px) 768px"
 						alt="portrait de Tunji">
 					<img data-gallery-tag="Mariages" 
 						class="gallery-item" 
@@ -141,26 +154,26 @@
 						class="gallery-item" 
 						src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" 
 						srcset="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-320.webp 320w, ./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash-768.webp 768w"
-						sizes="(max-width: 100px) 100px, (max-width: 768px) 768px"
+						sizes="(max-width: 320px) 320px, (max-width: 768px) 768px"
 						alt="portrait de Prattenburg">
 					<img data-gallery-tag="Concert" 
 						class="gallery-item" 
 						src="./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash.webp" 
 						srcset="./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash-320.webp 320w, ./assets/images/gallery/concerts/austin-neill-hgo1wfpxl3i-unsplash-768.webp 768w"
-						sizes="(max-width: 100px) 100px, (max-width: 768px) 768px"
+						sizes="(max-width: 320px) 320px, (max-width: 768px) 768px"
 						alt="photos concerts Austin">
 					<img data-gallery-tag="Entreprises" 
 						class="gallery-item" 
 						src="./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash.webp"
 						srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash-320.webp 320w, ./assets/images/gallery/entreprise/mateus-campos-felipe-fsgzm8n0hiy-unsplash-768.webp 768w"
-						sizes="(max-width: 100px) 100px, (max-width: 768px) 768px"
+						sizes="(max-width: 320px) 320px, (max-width: 768px) 768px"
 						alt="photos Campos">
 				</div>
 			</div>
 			<div class="quote">
 				<figure>
 					<blockquote>
-						<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+						<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
 					</blockquote>
 					<figcaption class="quote__author">- Richard Avedon</figcaption>
 				</figure>
@@ -202,14 +215,14 @@
 				</article>
 			</div>
 		</section>
-		<section class="quote">
+		<div class="quote">
 			<figure>
 				<blockquote>
-					<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+					<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
-		</section>
+		</div>
 		<section id="contact">
 			<div class="container">
 				<article class="form-container">
@@ -291,7 +304,16 @@
 		"url": "https://velosonina.github.io/ninacarducci/",
 		"image":"https://velosonina.github.io/ninacarducci/assets/images/nina.webp",
 		"keywords": "photographie, portrait, noir et blanc"
-		}
+		},
+		"priceRange" : "50€-400€",
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+				"Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi"
+				],
+			"opens": "10:00",
+			"closes": "19:00"
+        }
 	</script>
 	</body>
 </html>

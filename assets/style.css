@@ -390,6 +390,10 @@ footer div {
         padding: 1em 0;
         text-align: center;
     }
+
+img {
+    height: 280px;
+}
     .photo.left::before,
     .photo.right::before {
         height: 150px;
