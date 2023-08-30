@@ -6,14 +6,13 @@ body {
     font-family: "Inter";
     font-style: normal;
 }
-
 .loading-overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,10 +70,7 @@ nav a {
     padding: 100px;
     position: relative;
 }
-img {
-    width:580px; 
-    height:400px;
-}
+
   img.d-block.w-100 {
     width: 100%;
     height: auto;
@@ -390,10 +386,6 @@ footer div {
         padding: 1em 0;
         text-align: center;
     }
-
-img {
-    height: 280px;
-}
     .photo.left::before,
     .photo.right::before {
         height: 150px;
